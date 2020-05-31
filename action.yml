@@ -1,0 +1,13 @@
+name: 'My action'
+description: 'This is a test'
+author: 'brian pursell'
+inputs:
+  from_output:
+    description: 'temp'
+    required: false
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'archive'
+  color: 'gray-dark'

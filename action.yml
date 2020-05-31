@@ -2,7 +2,10 @@ name: 'My action'
 description: 'This is a test'
 author: 'brian pursell'
 inputs:
-  from_output:
+  param_1:
+    description: 'temp'
+    required: false
+  param_2:
     description: 'temp'
     required: false
 runs:
